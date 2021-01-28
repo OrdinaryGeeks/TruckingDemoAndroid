@@ -1,0 +1,1 @@
+ "# TruckingDemoAndroid This is an Android application that uses TruckingDemo's backend to update a map and allow a user to drive to a location, and when they are close enough they can scan to update the package" 

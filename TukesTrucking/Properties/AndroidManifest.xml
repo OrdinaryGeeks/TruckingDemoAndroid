@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" 
+          android:versionCode="1" 
+          android:versionName="1.0" 
+          package="com.companyname.tukestrucking">
+  <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="28" />
+
+	<uses-permission android:name="android.permission.CAMERA"/>
+
+	<uses-permission android:name="com.companyname.TukesTrucking.permission.MAPS_RECEIVE" />
+	<permission android:name="com.companyname.TukesTrucking.permission.MAPS_RECEIVE" android:protectionLevel="signature" />
+
+	<!-- These are optional, but recommended. They will allow Maps to use the My Location provider. -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+  android:permissionGroup="android.permission-group.STORAGE"
+  android:protectionLevel="dangerous" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	
+	<uses-feature android:name="android.hardware.location" android:required="false" />
+	<uses-feature android:name="android.hardware.location.gps" android:required="false" />
+	<uses-feature android:name="android.hardware.location.network" android:required="false" /> n
+	<application android:allowBackup="true" android:usesCleartextTraffic="true" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:roundIcon="@mipmap/ic_launcher_round" android:supportsRtl="true" android:theme="@style/AppTheme">
+
+
+	  <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyANlh5AuqDjB3c04zcgD2uj4w2I03q9jVc" />
+	  <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+  
+  </application>
+
+</manifest>
